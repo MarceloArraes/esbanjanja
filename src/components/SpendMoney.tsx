@@ -236,7 +236,7 @@ export const SpendMoney = () => {
   return (
     <div className="flex min-h-screen flex-col items-center bg-gray-800 p-8 text-white">
       <h1 className="mb-8 text-4xl font-bold">
-        Esbanje bomo esbanja a esbanjanja!
+        Esbanje como esbanja a esbanjanja!
       </h1>
       <Image
         src={"/janjaquempagaehosoto.jpeg"}
