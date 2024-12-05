@@ -16,7 +16,7 @@ export function Footer() {
           <p className="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
             Feito por{" "}
             <Link
-              href="/"
+              href="https://www.marceloarraes.site/"
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
@@ -58,7 +58,7 @@ export function Footer() {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://linkedin.com/in/mararraes"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-primary"
@@ -69,23 +69,6 @@ export function Footer() {
               </TooltipTrigger>
               <TooltipContent>
                 <p>LinkedIn Profile</p>
-              </TooltipContent>
-            </Tooltip>
-
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <Link
-                  href="https://twitter.com/yourusername"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-primary"
-                >
-                  <Twitter className="h-5 w-5" />
-                  <span className="sr-only">Twitter</span>
-                </Link>
-              </TooltipTrigger>
-              <TooltipContent>
-                <p>Twitter Profile</p>
               </TooltipContent>
             </Tooltip>
           </div>

@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import { GeistSans } from "geist/font/sans";
 import { Open_Sans } from "next/font/google";
 import { type Metadata } from "next";
+import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Esbanjanja",
@@ -26,6 +27,7 @@ export default function RootLayout({
           </h1>
         </header>
         <main className="flex-grow">{children}</main>
+        <Footer />
       </body>
     </html>
   );
