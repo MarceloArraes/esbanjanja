@@ -60,7 +60,7 @@ export const SpendMoney = () => {
       id: 1,
       name: "Bolsa Familia",
       price: 686.1,
-      image: "/bolsafamilia.png",
+      image: "/Esbanjanjavectors/vecBolsa.png",
       //   color: "bg-purple-500",
       quantity: 0,
     },
@@ -68,7 +68,7 @@ export const SpendMoney = () => {
       id: 3,
       name: "Cesta Basica",
       price: 709.9,
-      image: "/cesta-basica-1.webp",
+      image: "/Esbanjanjavectors/veccestabasica.png",
       //   color: "bg-red-500",
       quantity: 0,
     },
@@ -76,7 +76,7 @@ export const SpendMoney = () => {
       id: 8,
       name: "Gravata Zegna",
       price: 1_093,
-      image: "/janjagravatazegna.png",
+      image: "/Esbanjanjavectors/vecgravata2.png",
       //   color: "bg-green-500",
       quantity: 0,
     },
@@ -84,7 +84,7 @@ export const SpendMoney = () => {
       id: 2,
       name: "Salario Minimo",
       price: 1_412,
-      image: "/carteira_trabalho.jpg",
+      image: "/Esbanjanjavectors/veccarteira.png",
       //   color: "bg-blue-500",
       quantity: 0,
     },
@@ -92,7 +92,7 @@ export const SpendMoney = () => {
       id: 4,
       name: "Sapato Mocassim",
       price: 8_550,
-      image: "/janjamocassim.jpeg",
+      image: "/Esbanjanjavectors/vecmocassim.png",
       //   color: "bg-yellow-500",
       quantity: 0,
     },
@@ -100,7 +100,7 @@ export const SpendMoney = () => {
       id: 9,
       name: "Poltrona Astasi",
       price: 29_650,
-      image: "/janjapoltronastasi.png",
+      image: "/Esbanjanjavectors/veccadeira.png",
       //   color: "bg-green-500",
       quantity: 0,
     },
@@ -108,15 +108,7 @@ export const SpendMoney = () => {
       id: 7,
       name: "Poltrona 600K V.704 Revive",
       price: 49_081,
-      image: "/janjapoltronarevive.png",
-      //   color: "bg-green-500",
-      quantity: 0,
-    },
-    {
-      id: 10,
-      name: "Cama Natuzzi Piuma King",
-      price: 64_970,
-      image: "/janjacamapiuma.png",
+      image: "/Esbanjanjavectors/vecpoltrona.png",
       //   color: "bg-green-500",
       quantity: 0,
     },
@@ -124,40 +116,24 @@ export const SpendMoney = () => {
       id: 6,
       name: "Sofá Elétrico Portenho",
       price: 63_380,
-      image: "/janjasofaportenho.png",
+      image: "/Esbanjanjavectors/vecsofa.png",
+      //   color: "bg-green-500",
+      quantity: 0,
+    },
+    {
+      id: 10,
+      name: "Cama Natuzzi Piuma King",
+      price: 64_970,
+      image: "/Esbanjanjavectors/veccama.png",
       //   color: "bg-green-500",
       quantity: 0,
     },
 
     {
-      id: 15,
-      name: "Olimpiadas de Paris",
-      price: 236_000,
-      image: "/janjaparis2.jpeg",
-      //   color: "bg-green-500",
-      quantity: 0,
-    },
-    {
-      id: 14,
-      name: "Viagem ao Catar",
-      price: 283_300,
-      image: "/janjacatar2.png",
-      //   color: "bg-green-500",
-      quantity: 0,
-    },
-    {
-      id: 12,
-      name: "Arvore de Natal e Arranjos de Flores",
-      price: 358_400,
-      image: "/janjaarvoredenatal.webp",
-      //   color: "bg-green-500",
-      quantity: 0,
-    },
-    {
       id: 13,
       name: "Roupas de Cama e Banho",
       price: 130_695.36,
-      image: "/janjaroupadecama.jpg",
+      image: "/Esbanjanjavectors/vecroupadecama.png",
       //   color: "bg-green-500",
       quantity: 0,
     },
@@ -165,15 +141,40 @@ export const SpendMoney = () => {
       id: 11,
       name: "Tapete Burle Marx",
       price: 113_888.82,
-      image: "/janjatapete.webp",
+      image: "/Esbanjanjavectors/vectapete.png",
       //   color: "bg-green-500",
       quantity: 0,
     },
     {
+      id: 15,
+      name: "Olimpiadas de Paris",
+      price: 236_000,
+      image: "/Esbanjanjavectors/vecolimpiadas.png",
+      //   color: "bg-green-500",
+      quantity: 0,
+    },
+    {
+      id: 14,
+      name: "Viagem ao Catar",
+      price: 283_300,
+      image: "/Esbanjanjavectors/veccatar.png",
+      //   color: "bg-green-500",
+      quantity: 0,
+    },
+    {
+      id: 12,
+      name: "Arvore de Natal e Arranjos de Flores",
+      price: 358_400,
+      image: "/Esbanjanjavectors/vecarvore.png",
+      //   color: "bg-green-500",
+      quantity: 0,
+    },
+
+    {
       id: 5,
       name: "Viagem para a India",
       price: 2_000_000,
-      image: "/janjataj.jpg",
+      image: "/Esbanjanjavectors/vecmahal.png",
       //   color: "bg-orange-500",
       quantity: 0,
     },
@@ -235,9 +236,9 @@ export const SpendMoney = () => {
 
   return (
     <div className="flex min-h-screen flex-col items-center bg-gray-800 p-8 text-white">
-      <h1 className="mb-8 text-4xl font-bold">
+      {/* <h1 className="mb-8 text-4xl font-bold">
         Esbanje como esbanja a esbanjanja!
-      </h1>
+      </h1> */}
       <Image
         src={"/janjaquempagaehosoto.jpeg"}
         height={200}
@@ -245,7 +246,7 @@ export const SpendMoney = () => {
         alt="janja quem paga eh os oto"
       />
       {/* background: linear-gradient(180deg, #2ecc71, #1abc9c); */}
-      <div className="sticky top-0 mt-8 w-full rounded-lg bg-gradient-to-r from-[#2ecc71] to-[#1abc9c] text-center text-5xl font-bold md:text-7xl">
+      <div className="sticky top-0 z-10 mb-6 mt-8 w-full rounded-lg bg-gradient-to-r from-[#2ecc71] to-[#1abc9c] text-center align-top text-3xl font-bold md:text-7xl">
         <AnimatedNumber
           value={totalMoney}
           className="text-slate-800"
@@ -255,7 +256,7 @@ export const SpendMoney = () => {
       <div className="mb-8 grid grid-cols-1 gap-3 md:grid-cols-3">
         {items.map((item) => (
           <Card key={item.id} className={`w-80 bg-gray-500 text-white`}>
-            <CardContent className="flex flex-col items-center p-6">
+            <CardContent className="flex h-full w-full flex-col items-center justify-between p-6">
               <Image
                 src={item.image}
                 width={250}
