@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 import {
   Tooltip,
@@ -32,7 +32,15 @@ export function Footer() {
             >
               GitHub
             </Link>
-            .
+            . Inspirado por:{" "}
+            <Link
+              href="https://www.janjometro.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium underline underline-offset-4"
+            >
+              Janjometro
+            </Link>
           </p>
         </div>
 
